@@ -10,12 +10,12 @@
 
   <body>
 
-    <div class="container-fluid">
+    <div class="container">
 
       <!--HEADER-->
       <header>
 
-        <div class="row bg-dark">
+        <div class="row bg-dark objective-fit-fill">
 
           <div class="col d-flex justify-content-between py-2">
 
@@ -51,7 +51,11 @@
         </div>
 
         <!--CARDS-->
-        <div class="row d-flex justify-content-between m-5 gx-4 gy-5">
+        <div class="row d-flex justify-content-between m-5 gx-4 gy-5 h-50">
+
+          <div class="text-center my-0">
+            <H2>PORTFOLIO</H2>
+          </div>
 
           <!--FIRST CARD-->
           <div class="col-4">
@@ -60,7 +64,7 @@
 
               <img src="./img/portfolio/cabin.png" alt="Cabin Image" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title m-0">Cabin Website</h5>
+                <h6 class="card-title m-0">Cabin Website</h6>
               </div>
 
               <div class="d-grid gap-2 d-md-block pb-3">
@@ -77,9 +81,9 @@
 
             <div class="card text-center">
 
-              <img src="./img/portfolio/cake.png" alt="Cabin Image" class="card-img-top">
+              <img src="./img/portfolio/cake.png" alt="Cake Image" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title m-0">Cake Website</h5>
+                <h6 class="card-title m-0">Cake Website</h6>
               </div>
 
               <div class="d-grid gap-2 d-md-block pb-3">
@@ -96,9 +100,9 @@
 
             <div class="card text-center">
 
-              <img src="./img/portfolio/circus.png" alt="Cabin Image" class="card-img-top">
+              <img src="./img/portfolio/circus.png" alt="Circus Image" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title m-0">Circus Website</h5>
+                <h6 class="card-title m-0">Circus Website</h6>
               </div>
 
               <div class="d-grid gap-2 d-md-block pb-3">
@@ -115,9 +119,9 @@
 
             <div class="card text-center">
 
-              <img src="./img/portfolio/game.png" alt="Cabin Image" class="card-img-top">
+              <img src="./img/portfolio/game.png" alt="Game Image" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title m-0">Game Website</h5>
+                <h6 class="card-title m-0">Game Website</h6>
               </div>
 
               <div class="d-grid gap-2 d-md-block pb-3">
@@ -134,9 +138,9 @@
 
             <div class="card text-center">
 
-              <img src="./img/portfolio/safe.png" alt="Cabin Image" class="card-img-top">
+              <img src="./img/portfolio/safe.png" alt="Safe Image" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title m-0">Safe Website</h5>
+                <h6 class="card-title m-0">Safe Website</h6>
               </div>
 
               <div class="d-grid gap-2 d-md-block pb-3">
@@ -153,9 +157,9 @@
 
             <div class="card text-center">
 
-              <img src="./img/portfolio/submarine.png" alt="Cabin Image" class="card-img-top">
+              <img src="./img/portfolio/submarine.png" alt="Submarine Image" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title m-0">Submarine Website</h5>
+                <h6 class="card-title m-0">Submarine Website</h6>
               </div>
 
               <div class="d-grid gap-2 d-md-block pb-3">
@@ -165,6 +169,54 @@
 
             </div>
             
+          </div>
+
+
+          <!--FORMS-->
+          <div class="row">
+
+  
+            <div class="text-center my-3">
+            <h2>WANT AN OFFER?</h2>
+            </div>
+        
+
+            <div class="col-6">
+              <label for="FirstNameForm" class="form-label mb-1 fs-6">First name</label>
+              <input type="text" class="form-control mb-3" id="FirstNameForm" placeholder="Enter your first name here...">
+            </div>
+
+            <div class="col-6">
+              <label for="LastNameForm" class="form-label mb-1">Last name</label>
+              <input type="text" class="form-control mb-3" id="LastNameForm" placeholder="Enter your last name here...">
+            </div>
+
+            <div class="col-6">
+              <label for="EmailForm" class="form-label mb-1">Email adress</label>
+              <input type="email" class="form-control mb-3" id="EmailForm" placeholder="name@example.com">
+            </div>
+
+
+            <div class="col-6">
+              <label for="HoursForm" class="form-label mb-1">Hours Requested</label>
+              <input type="text" class="form-control" id="HoursForm" placeholder="Hours requested...">
+            </div>
+
+            <div class="col-6">
+              <label for="WorkType" class="form-label mb-1">Type of Work</label>
+              <select class="form-select form-select-md" aria-label=".form-select-md example">
+                <option selected>Select type of work</option>
+                <option value="1">Backend Development</option>
+                <option value="2">Frontend Development</option>
+                <option value="3">Project Analysis</option>
+              </select>
+            </div>
+
+            <div class="col-6">
+              <label for="DiscountCodeForm" class="form-label mb-1">Discount Code</label>
+              <input type="text" class="form-control" id="DiscountCodeForm">
+            </div>
+
           </div>
 
 
