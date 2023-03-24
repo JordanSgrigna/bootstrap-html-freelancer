@@ -10,7 +10,7 @@
 
   <body>
 
-    <div class="container">
+    <div class="container-fluid">
 
       <!--HEADER-->
       <header>
@@ -37,8 +37,8 @@
 
           <div class="col bg-info py-3 d-flex justify-content-center">
 
-            <div class="text-center w-25">
-              <img src="./img/undraw_profile_pic_ic5t.svg" alt="Profile Pic" class="img-fluid">
+            <div class="text-center">
+              <img src="./img/undraw_profile_pic_ic5t.svg" alt="Profile Pic" class="img-fluid w-25">
               <H4 class="mb-0">Pinco Pallo</H4>
               <small class="text-secondary">WEB DESIGNER</small>
             </div>
@@ -51,7 +51,7 @@
         </div>
 
         <!--CARDS-->
-        <div class="row d-flex justify-content-between m-5 gx-4 gy-5 h-50">
+        <div class="row m-5 gx-4 gy-5">
 
           <div class="text-center my-0">
             <H2>PORTFOLIO</H2>
@@ -171,62 +171,87 @@
             
           </div>
 
+        </div>
 
-          <!--FORMS-->
-          <div class="row">
-
-  
-            <div class="text-center my-3">
-            <h2>WANT AN OFFER?</h2>
-            </div>
+        <!--FORMS-->
         
+        <div class="row bg-info">
 
-            <div class="col-6">
-              <label for="FirstNameForm" class="form-label mb-1 fs-6">First name</label>
-              <input type="text" class="form-control mb-3" id="FirstNameForm" placeholder="Enter your first name here...">
-            </div>
+          <!--TITLE-->
+          <div class="col-12 text-center mt-3 mb-4">
+            <h3>WANT AN OFFER?</h3>
+          </div>
+      
+          <!--NAME FORM-->
+          <div class="col-6 ps-5">
+            <label for="FirstNameForm" class="form-label mb-1 fs-6">First name</label>
+            <input type="text" class="form-control mb-3" id="FirstNameForm" placeholder="Enter your first name here...">
+          </div>
 
-            <div class="col-6">
-              <label for="LastNameForm" class="form-label mb-1">Last name</label>
-              <input type="text" class="form-control mb-3" id="LastNameForm" placeholder="Enter your last name here...">
-            </div>
+          <!--LAST NAME FORM-->
+          <div class="col-6 pe-5">
+            <label for="LastNameForm" class="form-label mb-1">Last name</label>
+            <input type="text" class="form-control mb-3" id="LastNameForm" placeholder="Enter your last name here...">
+          </div>
 
-            <div class="col-6">
-              <label for="EmailForm" class="form-label mb-1">Email adress</label>
-              <input type="email" class="form-control mb-3" id="EmailForm" placeholder="name@example.com">
-            </div>
-
-
-            <div class="col-6">
-              <label for="HoursForm" class="form-label mb-1">Hours Requested</label>
-              <input type="text" class="form-control" id="HoursForm" placeholder="Hours requested...">
-            </div>
-
-            <div class="col-6">
-              <label for="WorkType" class="form-label mb-1">Type of Work</label>
-              <select class="form-select form-select-md" aria-label=".form-select-md example">
-                <option selected>Select type of work</option>
-                <option value="1">Backend Development</option>
-                <option value="2">Frontend Development</option>
-                <option value="3">Project Analysis</option>
-              </select>
-            </div>
-
-            <div class="col-6">
-              <label for="DiscountCodeForm" class="form-label mb-1">Discount Code</label>
-              <input type="text" class="form-control" id="DiscountCodeForm">
-            </div>
-
+          <!--EMAIL FORM-->
+          <div class="col-6 ps-5">
+            <label for="EmailForm" class="form-label mb-1">Email adress</label>
+            <input type="email" class="form-control mb-3" id="EmailForm" placeholder="name@example.com">
           </div>
 
 
-            
-              
-            
+          <!--HOURS FORM-->
+          <div class="col-6 pe-5">
+            <label for="HoursForm" class="form-label mb-1">Hours Requested</label>
+            <input type="text" class="form-control" id="HoursForm" placeholder="Hours requested...">
+          </div>
 
           
+          <!--TYPE OF WORK-->
+          <div class="col-6 ps-5">
+            <label for="WorkType" class="form-label mb-1">Type of Work</label>
+            <select class="form-select form-select-md" aria-label=".form-select-md example">
+              <option selected>Select type of work</option>
+              <option value="1">Backend Development</option>
+              <option value="2">Frontend Development</option>
+              <option value="3">Project Analysis</option>
+            </select>
+          </div>
+
+          
+          <!--DISCOUNT FORM-->
+          <div class="col-6 pe-5">
+            <label for="DiscountCodeForm" class="form-label mb-1">Discount Code</label>
+            <input type="text" class="form-control" id="DiscountCodeForm">
+          </div>
+
+          <div class="col text-center py-4">
+            <button type="button" class="btn btn-warning">Send</button>
+          </div>
 
         </div>
+
+        <footer>
+          <div class="row bg-dark text-white text-center">
+
+            <div class="column">
+              
+                
+              <p class="mt-3 mb-4 fw-semibold text-white-50">LOCATION</p>
+              <p class="mb-0 text-secondary">2215 John Daniel Drive</p>
+              <p class="text-secondary">Clark, MO 65243</p>
+              <h6 class="mb-3 text-secondary">Copyright &copy; Your Website 2021</h6>
+               
+              
+            </div>
+
+
+
+          </div>
+        </footer> 
+
+        
       
       </main>
 
@@ -252,7 +277,7 @@
 
 
 
-    </div>
+    
 
 
   
